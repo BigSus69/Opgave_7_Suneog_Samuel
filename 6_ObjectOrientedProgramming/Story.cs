@@ -17,6 +17,9 @@ class Story{
     Text("Mihnea spørger om du er interesseret i en bil");
     Console.WriteLine();
     Text("Mihnea sætter dig ned ved det store bord og spørger hvad for en farve bil du vil have");
+    Console.WriteLine();
+    Colors color1 = new Colors();
     }
+    
     
 }
