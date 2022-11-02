@@ -13,6 +13,10 @@ class Story{
     Text("Du kommer ind i Mihneas dealership");
     Console.WriteLine();
     Text("Du ser hans mange lovligt anskaffede biler og bildele");
+    Console.WriteLine();
+    Text("Mihnea spørger om du er interesseret i en bil");
+    Console.WriteLine();
+    Text("Mihnea sætter dig ned ved det store bord og spørger hvad for en farve bil du vil have");
     }
     
 }
