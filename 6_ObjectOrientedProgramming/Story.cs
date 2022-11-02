@@ -12,7 +12,7 @@ class Story{
     
     Text("Du kommer ind i Mihneas dealership");
     Console.WriteLine();
-    Text("");
+    Text("Du ser hans mange lovligt anskaffede biler og bildele");
     }
     
 }
