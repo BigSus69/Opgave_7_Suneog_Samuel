@@ -8,3 +8,5 @@ Car car1 = new Car("BMW");
 Car car2 = new Car("Toyota", 2, 8, 25);
 
 Console.ReadKey();
+
+//hej
