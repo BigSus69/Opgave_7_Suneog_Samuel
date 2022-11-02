@@ -1,6 +1,6 @@
 class Colors{
 
-public int Farve = 0;
+public string Farve = "Ingen farve";
     void Text(string text, int time = 50) 
     { 
         foreach (char c in text)
@@ -30,22 +30,22 @@ public int Farve = 0;
 
             case "Gul":
             Text("Bruh, Cringe men okæ :sadge:");
-            Farve = 1;
+            Farve = "Gul";
             break;
 
             case "Blå":
             Text("Damn! Jeg er også blå dabadeedabadej");
-            Farve = 2;
+            Farve = "Blå";
             break;
 
             case "Grøn":
             Text("Mmmmmmmmmmmmmmmmhhhhhhhhhh... Grøn, God Farve");
-            Farve = 3;
+            Farve = "Grøn";
             break;
 
             case "Pink":
             Text("Pink?!? Det er jo den mest mandlige farve min ven, passer godt til dine næsebor :thumbsup:");
-            Farve = 4;
+            Farve = "Pink";
             break;
         }
     }
