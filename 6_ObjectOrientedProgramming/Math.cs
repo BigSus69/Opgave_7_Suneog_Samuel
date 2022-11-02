@@ -1,0 +1,7 @@
+class Math{
+
+public Math(){
+    
+}
+
+}
