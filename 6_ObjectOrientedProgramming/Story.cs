@@ -21,5 +21,5 @@ class Story{
     Colors color1 = new Colors();
     }
     
-    
+    //EEEEEEE
 }
