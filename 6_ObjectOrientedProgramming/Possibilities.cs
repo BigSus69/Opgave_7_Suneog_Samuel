@@ -49,4 +49,13 @@ public string Farve = "Ingen farve";
             break;
         }
     }
+
+    public int CheckPrice(Colors c)
+    {
+        if(c == new Colors()){
+            return 100;
+        }
+
+        return 0;
+    }
 }

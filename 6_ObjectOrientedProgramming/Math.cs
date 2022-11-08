@@ -1,7 +1,9 @@
-class Math{
+public class Math
+{
 
-public Math(){
-//goofy aaah moment    
-}
+    public Math()
+    {
+        Colors c = new Colors();
+    }
 
 }
