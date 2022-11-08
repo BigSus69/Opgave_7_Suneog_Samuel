@@ -1,5 +1,7 @@
 class Story{
 
+public int StoryProgression;
+
     void Text(string text, int time = 50) 
     { 
         foreach (char c in text)
@@ -9,6 +11,9 @@ class Story{
             } 
         }
     public Story(){
+    StoryProgression = StoryProgression + 1;
+    if(StoryProgression == 1){
+
     
     Text("Du kommer ind i Mihneas dealership");
     Console.WriteLine();
@@ -20,6 +25,11 @@ class Story{
     Console.WriteLine();
     Colors color1 = new Colors();
     }
+    else if(StoryProgression == 2){
     
-    //EEEEEEE
+    Text("Du er nu på del 2");
+
+    }
+    }
+    
 }
