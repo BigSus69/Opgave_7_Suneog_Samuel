@@ -37,29 +37,33 @@ class Colors
                 Text("Bruh, Cringe men okæ :sadge:");
                 Console.WriteLine();
                 Farve = "Gul";
-                Story story1 = new Story();
                 break;
 
             case "Blå":
                 Text("Damn! Jeg er også blå dabadeedabadej");
                 Console.WriteLine();
                 Farve = "Blå";
-                Story story2 = new Story();
                 break;
 
             case "Grøn":
                 Text("Mmmmmmmmmmmmmmmmhhhhhhhhhh... Grøn, God Farve");
                 Console.WriteLine();
                 Farve = "Grøn";
-                Story story3 = new Story();
                 break;
 
             case "Pink":
                 Text("Pink?!? Det er jo den mest mandlige farve min ven, passer godt til dine næsebor :thumbsup:");
                 Console.WriteLine();
                 Farve = "Pink";
-                Story story4 = new Story();
                 break;
         }
+    }
+}
+
+class Wheels
+{
+    public Wheels(string HjulInput){
+        string hjulGoBrr = Console.ReadLine();
+        
     }
 }
