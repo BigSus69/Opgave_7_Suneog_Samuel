@@ -28,7 +28,7 @@ class Story
             Console.WriteLine();
             Text("Mihnea spørger om du er interesseret i en bil");
             Console.WriteLine();
-            Text("Mihnea sætter dig ned ved det store bord og spørger hvad for en farve bil du vil have");
+            Text("Mihnea sætter dig ned ved det store bord og spørger om du vil have en farvet bil");
             Console.WriteLine();
             string input = Console.ReadLine(); //red
             

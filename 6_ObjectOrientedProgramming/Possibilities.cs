@@ -18,6 +18,8 @@ class Colors
         colors.Add("Blå");
         colors.Add("Gul");
         Console.WriteLine();
+        Text("Heldige dig! Vi har nemlig mange farver til rådighed");
+        Console.WriteLine();
         Text("Dine muligheder:");
         Console.WriteLine();
         Text("===============");
