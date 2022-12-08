@@ -40,5 +40,5 @@ class Story
             Wheels color1 = new Wheels(HjulInput);
         }
     }
-
+                //e
 }
