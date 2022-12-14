@@ -12,11 +12,10 @@ public class Math
             } 
         }
 
-        Colors c = new Colors();
-        Console.WriteLine("hej");
-        string mathnumb = ("");
-        string colorboi = mathnumb;
-        switch (mathnumb){
+
+        string mathnumber = ("");
+        string colorboi = mathnumber;
+        switch (mathnumber){
         
             case "Gul":
             Text("det bliver så 50000000kr");
