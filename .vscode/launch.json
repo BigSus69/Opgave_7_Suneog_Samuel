@@ -14,7 +14,11 @@
             "args": [],
             "cwd": "${workspaceFolder}/6_ObjectOrientedProgramming",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+<<<<<<< HEAD
             "console": "externalTerminal",
+=======
+            "console": "internalConsole",
+>>>>>>> Math_part
             "stopAtEntry": false
         },
         {

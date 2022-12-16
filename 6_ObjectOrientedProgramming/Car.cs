@@ -9,6 +9,8 @@ class Car{
     public List<Door> Doors;
     public List<Tire> Tires;
 
+    public Colors color;
+
     #endregion
 
     #region Constructors
@@ -18,6 +20,7 @@ class Car{
         this.Tires = new List<Tire>();
         this.Doors = new List<Door>();
         Door door1 = new Door();
+        color = new Colors("din farve");
         this.Doors.Add(door1);
         this.Doors.Add(new Door());
 

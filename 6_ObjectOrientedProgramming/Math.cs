@@ -1,7 +1,0 @@
-class Math{
-
-public Math(){
-    
-}
-
-}
