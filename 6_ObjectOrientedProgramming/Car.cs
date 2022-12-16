@@ -20,7 +20,6 @@ class Car{
         this.Tires = new List<Tire>();
         this.Doors = new List<Door>();
         Door door1 = new Door();
-        color = new Colors("din farve");
         this.Doors.Add(door1);
         this.Doors.Add(new Door());
 

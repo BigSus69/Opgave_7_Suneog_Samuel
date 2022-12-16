@@ -4,14 +4,12 @@ public class Receipt
     // Receipt data
     private List<Item> items;
     private double totalPrice;
-    private DateTime date;
 
     // Constructor
     public Receipt()
     {
         items = new List<Item>();
         totalPrice = 0;
-        date = DateTime.Now;
     }
 
     // Add an item to the receipt
@@ -25,13 +23,12 @@ public class Receipt
     // Print the receipt
     public void Print()
     {
-        Console.WriteLine("Date: " + date.ToString());
         Console.WriteLine("Items: ");
         foreach (var item in items)
         {
-            Console.WriteLine(item.name + " - $" + item.price);
+            Console.WriteLine(item.name + " - kr " + item.price);
         }
-        Console.WriteLine("Total: $" + totalPrice);
+        Console.WriteLine("Total: kr " + totalPrice);
     }
 
     // Item class
