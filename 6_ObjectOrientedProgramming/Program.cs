@@ -5,7 +5,7 @@
 
 Story story1 = new Story();
 
-Math Math1 = new Math();
+Receipt Receipt1 = new Receipt();
 //Instantiating a Car class / Creating an object of type Car
 Car car1 = new Car("BMW");
 Car car2 = new Car("Toyota", 2, 8, 25);
