@@ -51,14 +51,14 @@ public class Colors
                 Text("Mmmmmmmmmmmmmmmmhhhhhhhhhh... Grøn, God Farve");
                 Console.WriteLine();
                 Farve = "Grøn";
-                re.AddItem("Farve - Blå", 69420);
+                re.AddItem("Farve - Grøn", 69420);
                 break;
 
             case "Pink":
                 Text("Pink?!? Det er jo den mest mandlige farve min ven, passer godt til dine næsebor :thumbsup:");
                 Console.WriteLine();
                 Farve = "Pink";
-                re.AddItem("Farve - Blå", 0.69420);
+                re.AddItem("Farve - Pink", 0.69420);
                 break;
         }
     }
