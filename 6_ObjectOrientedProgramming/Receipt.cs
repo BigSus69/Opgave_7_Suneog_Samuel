@@ -20,6 +20,14 @@ public class Receipt
         totalPrice += price;
     }
 
+    // Subtract item from the receipt
+    public void SubtractItem(string name, double price)
+    {
+        var item = new Item(name, price);
+        items.Add(item);
+        totalPrice -= price;
+    }
+
     // Print the receipt
     public void Print()
     {

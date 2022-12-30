@@ -7,4 +7,6 @@ Story story1 = new Story();
 
 Receipt Receipt1 = new Receipt();
 
+PostStory postStory1 = new PostStory();
+
 Console.ReadKey();
